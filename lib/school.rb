@@ -11,9 +11,8 @@ class School
   
   def add_student(name, grade)
     roster
-    roster_hash = {}
-    roster_hash[grade] = []
-    roster_hash[grade] << name
+    roster[grade] = []
+    roster[grade] << name
   end 
   
 end 
