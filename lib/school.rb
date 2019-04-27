@@ -1,9 +1,9 @@
 require 'pry'
 class School
-  @@roster = Hash.new
+  
   def initialize(name)
     @name = name 
-    roster
+    @roster
   end 
   
   def roster
