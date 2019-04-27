@@ -13,6 +13,6 @@ class School
     roster = {}
     roster[grade] = []
     roster[grade] << name
-    roster[]
+    roster
   end
 end 
