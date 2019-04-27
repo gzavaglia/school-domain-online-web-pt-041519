@@ -10,7 +10,10 @@ class School
   end
   
   def add_student(name, grade)
-    hash[grade] = []
+    roster = {}
+    roster[grade] = []
+    roster[grade] << name
+    roster[]
   end 
   binding.pry 
 end 
