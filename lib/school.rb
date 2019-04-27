@@ -14,6 +14,5 @@ class School
     roster[grade] = []
     roster[grade] << name
     roster[]
-  end 
-  binding.pry 
+  end
 end 
