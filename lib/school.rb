@@ -1,17 +1,16 @@
 require 'pry'
 class School
-  #@@roster = Hash.new
+  @@roster = Hash.new
   def initialize(name)
     @name = name 
     roster
   end 
   
   def roster
-    @@roster = Hash.new
+    @@roster
   end
   
   def add_student(name, grade)
-    self.roster
     @@roster[grade] = []
     @@roster[grade] << name
     @@roster
