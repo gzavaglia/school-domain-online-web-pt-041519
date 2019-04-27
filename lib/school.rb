@@ -2,13 +2,15 @@ require 'pry'
 class School
   def initialize(name)
     @name = name 
-    roster = {}
+    roster
   end 
-  # def roster()
-  #     roster_hash = {}
-  # end
+  
+  def roster
+       roster_hash = {}
+  end
   
   def add_student(name, grade)
+    roster
     roster_hash = {}
     roster_hash[grade] = []
     roster_hash[grade] << name
